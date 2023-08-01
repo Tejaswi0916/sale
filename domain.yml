@@ -1,0 +1,69 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - interested
+  - not_interested
+  - interested_later
+
+
+
+
+
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_happy_2:
+  - text: "That's Great,please carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_sorry:
+  - text: "We apologize, but we'll try again soon with something different to make you happy."
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_wish:
+  - text: "Hey! Thank you for choosing our product. Are you satisfied with our oconnect product"
+
+  utter_apology:
+  - text: "We're sorry about your experience. We will definitely work on improvement. Have a nice day"
+
+  utter_other_products:
+  - text: "Great we have few other products.Are you interested to know about them?"
+
+  utter_interested:
+  - text: "Great we noted it. Our agent will connect with you soon"
+
+  utter_not_interested:
+  - text: "Thankyou,Have a nice day"
+
+  utter_interested_later:
+  - text: "Sure we will connect back again with new offers.Have a nice day"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+  

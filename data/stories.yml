@@ -1,0 +1,86 @@
+version: "3.1"
+
+stories:
+
+
+- story: sad path
+  steps:
+  - intent: greet
+  - action: utter_wish
+  - intent: deny
+  - action: utter_apology
+
+- story: happy path 1
+  steps:
+  - intent: greet
+  - action: utter_wish
+  - intent: affirm
+  - action: utter_other_products
+  - intent: affirm
+  - action: utter_interested
+
+- story: happy path 2
+  steps:
+  - intent: greet
+  - action: utter_wish
+  - intent: affirm
+  - action: utter_other_products
+  - intent: interested
+  - action: utter_interested
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_wish
+  - intent: affirm
+  - action: utter_other_products
+  - intent: deny
+  - action: utter_not_interested
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_wish
+  - intent: affirm
+  - action: utter_other_products
+  - intent: not_interested
+  - action: utter_not_interested
+
+- story: sad path 3
+  steps:
+  - intent: greet
+  - action: utter_wish
+  - intent: affirm
+  - action: utter_other_products
+  - intent: interested_later
+  - action: utter_interested_later
+
+
+# - story: happy path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy_2
+
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_sorry
+
+

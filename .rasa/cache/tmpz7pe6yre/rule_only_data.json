@@ -1,0 +1,7 @@
+{
+  "rule_only_slots": [],
+  "rule_only_loops": [
+    "product_info_form",
+    "validate_product_name"
+  ]
+}
