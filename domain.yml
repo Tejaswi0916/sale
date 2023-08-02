@@ -45,22 +45,22 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_wish:
-  - text: "Hey! Thank you for choosing our product. Are you satisfied with our oconnect product"
+  - text: "Hey! Thank you for choosing our product 😊. Are you satisfied with our oconnect product?"
 
   utter_apology:
-  - text: "We're sorry about your experience. We will definitely work on improvement. Have a nice day"
+  - text: "We're sorry about your experience 😢. We will definitely work on improvement. Have a nice day"
 
   utter_other_products:
-  - text: "Great we have few other products.Are you interested to know about them?"
+  - text: "That's great, we have few other products✨.Are you interested to know about them?"
 
   utter_interested:
-  - text: "Great we noted it. Our agent will connect with you soon"
+  - text: "Great we noted it. Our agent will connect with you soon 😇"
 
   utter_not_interested:
-  - text: "Thankyou,Have a nice day"
+  - text: "Thankyou,Have a nice day🙂"
 
   utter_interested_later:
-  - text: "Sure we will connect back again with new offers.Have a nice day"
+  - text: "We will definitely get in touch again with latest offers.Enjoy your day. 😇"
 
 session_config:
   session_expiration_time: 60
